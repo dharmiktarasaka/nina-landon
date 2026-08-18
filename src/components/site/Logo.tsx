@@ -6,9 +6,9 @@ export function Logo({ tone = "dark" }: { tone?: "dark" | "light" }) {
       <img
         src="/favicon.png"
         alt="Radiant Flower logo"
-        className="size-10 shrink-0 rounded-full object-contain"
-        width={40}
-        height={40}
+        className="size-21 shrink-0 rounded-full object-contain pt-1 pb-1"
+        width={56}
+        height={56}
       />
       <span
         className={`font-script hidden text-2xl leading-none sm:block ${
